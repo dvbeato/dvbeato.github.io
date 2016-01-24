@@ -9,7 +9,7 @@
 title: Diogo Beato
 email: dvbeato@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my personal website to share my knowledge about programming stuffs
+  This is my personal website to share knowledge about programming stuffs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dvbeato.github.io" # the base hostname & protocol for your site
 twitter_username: dvbeato
@@ -17,3 +17,5 @@ github_username:  dvbeato
 
 # Build settings
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
